@@ -1,0 +1,37 @@
+{
+    "name": "young-colors",
+    "displayName": "Young Colors",
+    "description": "Young Colored Theme",
+	"publisher": "EnesN",
+    "version": "0.0.1",
+	"repository":{
+		"type": "git",
+		"url": "https://github.com/Enes-Nal/Young-Color-Theme.git"
+	},
+	"keywords":[
+		"theme",
+		"light theme",
+		"interesting",
+		"weird",
+		"young",
+		"light theme",
+		"a light theme"
+
+	],
+
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Young Color Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Young Color Theme-color-theme.json"
+            }
+        ]
+    }
+}
